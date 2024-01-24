@@ -28,7 +28,10 @@
   border: 1px solid #98a2b3;
   // }
   &:hover {
-    background-color: darken($gray-900, 15%);
+    background-color: darken($gray-50, 5%);
+  }
+  &:focus {
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
   }
 }
 .btnSecondary {
@@ -39,6 +42,9 @@
   // }
   &:hover {
     background-color: darken($gray-900, 15%);
+  }
+  &:focus {
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
   }
 }
 .btnSecondary {
