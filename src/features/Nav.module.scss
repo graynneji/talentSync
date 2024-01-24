@@ -1,0 +1,37 @@
+@import "./src/styles/global.scss";
+nav {
+  padding: 0px 128px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  background-color: $gray-100;
+  padding: 16px 32px;
+  border: 1px solid $gray-300;
+
+  span {
+    color: $gray-900;
+  }
+
+  ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  li {
+    display: inline-block;
+
+    a:link {
+      @include style-link-text($gray-500);
+    }
+  }
+}
+
+.btnContainer {
+  display: flex;
+  gap: 4px;
+}

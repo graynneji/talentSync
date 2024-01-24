@@ -1,0 +1,54 @@
+// .button {
+// padding: 14px 24px;
+// cursor: pointer;
+// border-radius: 50px;
+// border: none;
+// .primary {
+// background-color: white;
+// }
+// }
+// .secondary {
+
+// }
+@import "./src/styles/global.scss";
+
+%btn-placeholder {
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  // @include style-link-text($gray-500);
+}
+
+.btnPrimary {
+  @extend %btn-placeholder;
+  // &:link {
+  background-color: #fff;
+  color: $gray-900;
+  border: 1px solid #98a2b3;
+  // }
+  &:hover {
+    background-color: darken($gray-900, 15%);
+  }
+}
+.btnSecondary {
+  @extend %btn-placeholder;
+  // &:link {
+  background-color: $blue-700;
+  color: #fff;
+  // }
+  &:hover {
+    background-color: darken($gray-900, 15%);
+  }
+}
+.btnSecondary {
+  @extend %btn-placeholder;
+  // &:link {
+  background-color: $blue-700;
+  color: #fff;
+  padding: 16px 28px;
+  // }
+  &:hover {
+    background-color: darken($blue-700, 15%);
+  }
+}

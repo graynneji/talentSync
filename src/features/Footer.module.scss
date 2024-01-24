@@ -1,0 +1,60 @@
+@import "./src/styles/global.scss";
+.footerContainer {
+  //   @include flexRow(100px);
+  //   justify-content: center;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+}
+
+.footerRightContainer {
+  @include flexRow(32px);
+}
+.uListFooter {
+  @include flexRow(32px);
+  place-content: center;
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-500;
+  }
+
+  ul {
+    @include flexColumn(16px);
+    li {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: $gray-600;
+      list-style: none;
+    }
+  }
+}
+
+.footerLeftContainer {
+  @include flexColumn(32px);
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $gray-600;
+  }
+  span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: $gray-900;
+  }
+}
+.download {
+  @include flexColumn(16px);
+  p {
+    color: #004eeb;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

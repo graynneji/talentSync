@@ -1,0 +1,41 @@
+@import "./src/styles/global.scss";
+
+.trailContainer {
+  padding: 96px 160px;
+  @include flexRow(0px);
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.trailList {
+  @include flexColumn(20px);
+
+  span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: $gray-600;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+}
+.trailConLeft {
+  h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -2%;
+    color: $gray-900;
+    margin-bottom: 32px;
+  }
+}
+
+.trailImage {
+  margin-right: -320px;
+  margin-bottom: -177px;
+}

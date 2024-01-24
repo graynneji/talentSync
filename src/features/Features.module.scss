@@ -1,0 +1,80 @@
+.featuresContainer {
+  padding: 0px 160px;
+  @include flexColumn(80px);
+}
+
+.top {
+  position: relative;
+  .arrow {
+    position: absolute;
+    right: 200px;
+    top: 19px;
+  }
+  p {
+    font-weight: 600;
+
+    font-size: 18px;
+
+    line-height: 28px;
+    color: #175cd3;
+  }
+  h2 {
+    font-weight: 600;
+    color: $gray-800;
+    font-size: 48px;
+
+    line-height: 60px;
+
+    letter-spacing: -2%;
+  }
+
+  span {
+    color: $gray-500;
+    font-weight: 400;
+
+    font-size: 24px;
+
+    line-height: 32px;
+  }
+}
+.featureList {
+  //   @include flexRow(50px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featureListLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 60px;
+  column-gap: 40px;
+
+  h3 {
+    color: #101828;
+  }
+  p {
+    color: #475467;
+
+    font-weight: 400;
+
+    font-size: 18px;
+
+    line-height: 28px;
+  }
+}
+.flexList {
+  @include flexColumn(20px);
+}
+
+.flexListText {
+  @include flexColumn(8px);
+}
+.iconStyle {
+  padding: 16px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensure the icon stays within the rounded boundaries */
+  display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   background-color: #eaecf0;
+}

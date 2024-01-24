@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", "sans-serif";
+  background-color: #fff;
+}
+
+$gray-800: #1d2939;
+$gray-500: #667085;
+$gray-900: #101828;
+$blue-700: #175cd3;
+$gray-300: #d0d5dd;
+$blue-50: #eff8ff;
+$gray-600: #475467;
+$gray-200: #eaecf0;
+$gray-50: #f9fafb;
+$gray-400: #98a2b3;
+$gray-100: #f2f4f7;
+
+// :root {
+//   --Gray-800: #{$gray-800};
+// }
+
+@mixin style-link-text($col) {
+  text-decoration: none;
+  color: $col;
+}
+
+//profile color
+@mixin profileColor($col) {
+  border-radius: 2px;
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  background-color: $col;
+}
+
+@mixin flexRow($gap) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin flexColumn($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
