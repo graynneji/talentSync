@@ -51,5 +51,24 @@
   grid-column: 5;
 }
 .client {
+  @include flexRow(0px);
+  justify-content: space-between;
+  align-items: center;
+}
+.clientCard {
   @include flexRow(16px);
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: $gray-900;
+  }
+  span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: $gray-600;
+  }
 }
