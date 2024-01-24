@@ -115,16 +115,16 @@ function Testimonial() {
           <img src="/Image-4.png" alt="grid image 1" />
         </div>
         <div className={style.imageItem2}>
-          <img src="\src\assets\Image.png" alt="grid image 2" />
+          <img src="/Image.png" alt="grid image 2" />
         </div>
         <div className={style.imageItem3}>
-          <img src="\src\assets\Image-2.png" alt="grid image 3" />
+          <img src="/Image-2.png" alt="grid image 3" />
         </div>
         <div className={style.imageItem4}>
-          <img src="\src\assets\Image-3.png" alt="grid image 4" />
+          <img src="/Image-3.png" alt="grid image 4" />
         </div>
         <div className={style.imageItem5}>
-          <img src="\src\assets\Image-1.png" alt="grid image 5" />
+          <img src="/Image-1.png" alt="grid image 5" />
         </div>
       </div>
     </div>

@@ -102,7 +102,7 @@ function Trail() {
         </div>
       </div>
       <div className={style.trailImage}>
-        <img src="\src\assets\3_2 screen mockup.png" alt="trail image" />
+        <img src="/3_2 screen mockup.png" alt="trail image" />
       </div>
     </div>
   );

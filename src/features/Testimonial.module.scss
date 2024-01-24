@@ -50,3 +50,6 @@
   grid-row: 4/6;
   grid-column: 5;
 }
+.client {
+  @include flexRow(16px);
+}
