@@ -1,12 +1,12 @@
 import style from "./SocialProof.module.scss";
 
 const imagesSocial = [
-  "src/assets/Shopify.com svg.svg",
-  "src/assets/Marvel svg.svg",
-  "src/assets/Coinbase svg.svg",
-  "src/assets/Automattic svg.svg",
-  "src/assets/Dropbox svg.svg",
-  "src/assets/Intercom svg.svg",
+  "/Shopify.com svg.svg",
+  "/Marvel svg.svg",
+  "/Coinbase svg.svg",
+  "/Automattic svg.svg",
+  "/Dropbox svg.svg",
+  "/Intercom svg.svg",
 ];
 
 function SocialProof() {

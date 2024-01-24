@@ -148,7 +148,7 @@ function Features() {
           {/* <Rectangle /> */}
           <img
             style={{ width: "544px", height: "527px" }}
-            src="/src/assets/Rectangle 1.png"
+            src="/Rectangle 1.png"
             alt="Group pictures"
           />
         </div>

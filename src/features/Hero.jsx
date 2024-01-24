@@ -3,20 +3,20 @@ import style from "./Hero.module.scss";
 import { StarIcon } from "../constants/Stars";
 
 const imageSources = [
-  "src/assets/image 21.png",
-  "src/assets/image 8.png",
-  "src/assets/image 21.png",
-  "src/assets/image 100.png",
-  "src/assets/image 108.png",
-  "src/assets/image 72.png",
+  "/image 21.png",
+  "/image 8.png",
+  "/image 21.png",
+  "/image 100.png",
+  "/image 108.png",
+  "/image 72.png",
 ];
 
 const images = [
-  "src/assets/Avatar.svg",
-  "src/assets/Avatar-1.svg",
-  "src/assets/Avatar-2.svg",
-  "src/assets/Avatar-3.svg",
-  "src/assets/Avatar-4.svg",
+  "/Avatar.svg",
+  "/Avatar-1.svg",
+  "/Avatar-2.svg",
+  "/Avatar-3.svg",
+  "/Avatar-4.svg",
 ];
 
 function Hero() {

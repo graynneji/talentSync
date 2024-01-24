@@ -97,7 +97,7 @@ function Testimonial() {
 
         <div className={style.client}>
           <div className={style.clientCard}>
-            <img src="\src\assets\Avatar.png" alt="avatar" />
+            <img src="/Avatar.png" alt="avatar" />
             <div>
               <h3>Sarah Thompson</h3>
               <span>Project Manager, Shopify</span>
@@ -112,7 +112,7 @@ function Testimonial() {
 
       <div className={style.pictureGrid}>
         <div className={style.imageItem1}>
-          <img src="\src\assets\Image-4.png" alt="grid image 1" />
+          <img src="/Image-4.png" alt="grid image 1" />
         </div>
         <div className={style.imageItem2}>
           <img src="\src\assets\Image.png" alt="grid image 2" />
