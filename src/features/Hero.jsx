@@ -4,11 +4,11 @@ import { StarIcon } from "../constants/Stars";
 
 const imageSources = [
   "/image 21.png",
-  "/image 8.png",
-  "/image 21.png",
   "/image 100.png",
-  "/image 108.png",
+  "/image 8.png",
   "/image 72.png",
+  "/image 108.png",
+  "/image 103.png",
 ];
 
 const images = [
