@@ -9,31 +9,37 @@
     line-height: 60px;
     letter-spacing: -2%;
     color: $gray-900;
+    max-width: 50ch;
   }
 }
 
 .pictureGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 5vw);
-  row-gap: 16px;
+  // grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  // grid-template-rows: repeat(4, 5vw);
+  row-gap: 4px;
   column-gap: 16px;
+  // margin-top: 16px;
 }
 
 .imageItem1 {
   grid-column: 3/4;
   grid-row: 2/3;
   justify-self: end;
+  align-self: end;
   margin-right: -90px;
 }
 
 .imageItem2 {
   grid-column: 4;
-  grid-row: 1;
+  grid-row: 2;
   justify-self: end;
-  margin-bottom: -44px;
+  align-self: end;
+  // margin-bottom: -9px;
 
-  margin-right: -90px;
+  margin-right: -89px;
 }
 
 .imageItem3 {
@@ -70,5 +76,34 @@
     line-height: 28px;
 
     color: $gray-600;
+  }
+}
+.iconsContainer {
+  display: flex;
+  gap: 32px;
+  .iconStyle {
+    border: 1px solid #d1e9ff;
+    background-color: #fffffff7;
+    width: 2.4rem;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    // display: flex;
+    // justify-items: center;
+
+    // overflow: hidden; /* Ensure the icon stays within the rounded boundaries */
+    // display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   background-color: #eaecf0;
+    // svg {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    // }
   }
 }

@@ -21,7 +21,7 @@
   //   background-image: url("src/assets/Background pattern.svg");
   //   background-size: cover;
   //   background-position: center;
-  //   overflow: scroll;
+  overflow: hidden;
 }
 .headerContainer {
   display: flex;
@@ -48,4 +48,20 @@
   background-image: url("/Background pattern.svg");
   background-size: cover;
   background-position: center;
+}
+.footer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  background-color: "#F9FAFB";
+  padding: "48px 0px 48px 0px";
+  color: "#667085";
+  gap: 64px;
+  justify-content: space-around;
+  align-items: center;
+}
+.socials {
+  display: flex;
+  gap: 24px;
 }

@@ -70,11 +70,27 @@
   @include flexColumn(8px);
 }
 .iconStyle {
-  padding: 16px;
+  background-color: #f9fafb;
+  border: 1px solid #eaecf0;
+  width: 2.4rem;
+  height: 2.5rem;
+  padding: 10px;
   border-radius: 50%;
-  overflow: hidden; /* Ensure the icon stays within the rounded boundaries */
-  display: flex;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  // display: flex;
+  // justify-items: center;
+
+  // overflow: hidden; /* Ensure the icon stays within the rounded boundaries */
+  // display: flex;
   //   align-items: center;
   //   justify-content: center;
   //   background-color: #eaecf0;
+  // svg {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
 }

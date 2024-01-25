@@ -103,8 +103,8 @@ function Testimonial() {
               <span>Project Manager, Shopify</span>
             </div>
           </div>
-          <div>
-            <span>
+          <div className={style.iconsContainer}>
+            <div className={style.iconStyle}>
               <svg
                 width="24"
                 height="24"
@@ -123,8 +123,8 @@ function Testimonial() {
                   />
                 </g>
               </svg>
-            </span>
-            <span>
+            </div>
+            <div className={style.iconStyle}>
               <svg
                 width="24"
                 height="24"
@@ -143,7 +143,7 @@ function Testimonial() {
                   />
                 </g>
               </svg>
-            </span>
+            </div>
           </div>
         </div>
       </div>

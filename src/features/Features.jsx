@@ -33,7 +33,7 @@ function Features() {
       <div className={style.featureList}>
         <div className={style.featureListLeft}>
           <div className={style.flexList}>
-            <div>
+            <div className={style.iconStyle}>
               <svg
                 width="24"
                 height="25"
@@ -92,7 +92,7 @@ function Features() {
             </div>
           </div>
           <div className={style.flexList}>
-            <div>
+            <div className={style.iconStyle}>
               <svg
                 width="24"
                 height="25"
@@ -118,7 +118,7 @@ function Features() {
             </div>
           </div>
           <div className={style.flexList}>
-            <div>
+            <div className={style.iconStyle}>
               <svg
                 width="24"
                 height="25"

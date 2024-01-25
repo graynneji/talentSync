@@ -7,6 +7,8 @@
 body {
   font-family: "inter", "sans-serif";
   background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
 }
 
 $gray-800: #1d2939;
