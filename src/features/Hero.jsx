@@ -111,6 +111,7 @@ function Hero() {
                   .map((star, index) => (
                     <span key={index}>{star}</span>
                   ))}
+
                 <span> &nbsp; 5.0</span>
               </div>
               <p>from 3,000+ reviews</p>
